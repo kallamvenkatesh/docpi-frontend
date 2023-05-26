@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+ ### ElasticBenStalk deployment
+
+ docker run -it -v ${pwd}:/app -p 3000:3000 node:14 sh
+ take an exit or create new react application
+ post development
+ create dockerfile and docker-compose.yaml
+ Test in local:
+ docker compose up --build
+ 
